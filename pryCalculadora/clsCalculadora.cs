@@ -34,6 +34,15 @@ namespace pryCalculadora
             return resultado;
         }
 
+        public float Restar()
+        {
+            return resultado = numero1 - numero2;
+        }
+
+        public float Multiplicar()
+        {
+            return resultado = numero1 * numero2;
+        }
         
         
     }
