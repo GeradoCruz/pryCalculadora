@@ -22,8 +22,11 @@ namespace pryCalculadora
 
         private void btnRestar_Click(object sender, EventArgs e)
         {
-            
-            
+            calc.Numero1 = float.Parse(txtN1.Text);
+            calc.Numero2 = float.Parse(txtN2.Text);
+
+            txtResultado.Text = calc.Restar().ToString();
+
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
